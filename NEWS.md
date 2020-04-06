@@ -1,3 +1,9 @@
+# 0.4.5.9999
+- Work-around for gRain changes
+
+# 0.4.5
+* Pass CRAN checks with stringsAsFactors = FALSE as default
+
 # 0.4.4
 * Removing gRain integration to pass CRAN checks 
 

@@ -1,5 +1,5 @@
 ## Test environments
-* Ubuntu 16.04 R 3.6.2 (local)
+* Ubuntu 16.04 R 3.6.3 (local)
 * ubuntu 14.04 R R-release (travis ci)
 * ubuntu 14.04 R R-devel (travis ci)
 * windows R R-devel (win-builder) 
@@ -7,8 +7,18 @@
 
 ## R CMD check results   
 Locally and on win-builder there were no ERRORs, no WARNINGs, and no NOTEs.  
+
+On win-builder there were no ERRORs nor WARNINGs. There was one NOTE:
+
+  Maintainer: 'Mihaljevic Bojan <boki.mihaljevic@gmail.com>'
   
-On travis ci there were no ERRORs nor WARNINGs. There was one NOTE.
+  New maintainer:
+    Mihaljevic Bojan <boki.mihaljevic@gmail.com>
+  Old maintainer(s):
+  
+This note is simply signalling that I have updated my email address in the package DESCRIPTION. 
+  
+On travis ci there were no ERRORs nor WARNINGs. There was one NOTE:
 
   checking installed package size ... NOTE 
     installed size is  7.9Mb 
@@ -16,6 +26,8 @@ On travis ci there were no ERRORs nor WARNINGs. There was one NOTE.
       libs   7.1Mb  
       
 This was probably due to a -g compilation flag that I do not currently know how to remove. It does not occur in other environments. 
+
+
 
 ## Downstream dependencies
 There are currently no downstream dependencies for this package.
